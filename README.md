@@ -20,3 +20,9 @@ This To-Do List Application is a simple, user-friendly tool designed to help you
 * Click the "✏" button next to the task you want to edit.
 * Modify the task description.
 * Click the "Save" button to save changes.
+3. Marking a Task as Important:
+* Click the "❕" button next to the task to highlight it as important.
+4. Done:
+* Click on "✔" button to mark the task as done.
+5. Deleting a Task:
+* Click the "❌" button next to the task you want to remove.
