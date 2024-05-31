@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="pt-5 pb-5 container mt-5">
+        <h1 class="text-center mb-4">TO DO List</h1>
+        <div class="cover-container">
+            <div class="input-group p-1 mb-3">
+                <input type="text" id="taskInput" class="form-control" placeholder="Enter task">
+                <div class="input-group-append">
+                    <button id="addButton" class="btn btn-add " onclick="addTask()">Add</button>
+                </div>
+            </div>
+        </div>
+        <ul id="taskList" class="list-group"></ul>
+        <div id="aboutSection" class="card mt-4 d-none">
+            <div class="card-body">
+                <h5 class="card-title">About</h5>
+                <p id="divabout" class="card-text"></p>
+            </div>
+        </div>
+        <div class="button-group d-flex justify-content-center mt-2">
+            <button class="btn btn-info mr-2" onclick="doAbout()">About</button>
+            <button class="btn btn-secondary" onclick="clearAbout()">Clear</button>
+        </div>
+    </div>
+</body>
+</html>

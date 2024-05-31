@@ -1,0 +1,159 @@
+/* 
+
+body {
+  background-color: #f0f8ff;
+  font-family: 'Arial', sans-serif;
+  background-image: url(bg4.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+
+}
+
+h1 {
+  color: #333;
+}
+.container{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.cover-container{
+  background-color: rgb(65, 62, 62);
+  border-radius: 10px;
+
+}
+.aboutcolor {
+  background-color: #ffffe0;
+}
+
+.list-group-item.finished {
+  color: white;
+  background-color: gray;
+  text-decoration: line-through;
+}
+
+.list-group-item.important {
+  background-color: #ffeb3b;
+  font-weight: bold;
+}
+
+.important-task {
+  animation: importantTask 0.5s forwards;
+}
+
+@keyframes importantTask {
+  0% {
+      background-color: yellow;
+      transform: scale(1.05);
+  }
+  100% {
+      background-color: #ffeb3b;
+  }
+}
+ */
+
+ body {
+  background-color: #f0f8ff;
+  font-family: 'Arial', sans-serif;
+  background-image: url('bg5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  color: #333;
+  font-family: "Sedan SC", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-style: bolder;
+}
+#taskInput{
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#divabout{
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#taskList{
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #595858;
+}
+.container {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.cover-container {
+  background-color: rgb(65, 62, 62);
+  border-radius: 10px;
+}
+
+.aboutcolor {
+  background-color: #ffffe0;
+}
+
+.list-group-item.finished {
+  color: white;
+  background-color: gray;
+  text-decoration: line-through;
+}
+
+.list-group-item.important {
+  background-color: #c0dee8;
+  font-weight: bold;
+}
+
+.important-task {
+  animation: importantTask 0.5s forwards;
+}
+
+@keyframes importantTask {
+  0% {
+      background-color: rgb(228, 228, 135);
+      transform: scale(1.05);
+  }
+  100% {
+      background-color: #eee382;
+  }
+}
+
+.btn-done {
+  background-color: rgb(239, 142, 158); /* Hot pink */
+  border: none;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #3a809b; /* Sky blue */
+  border: none;
+  color: white;
+}
+.btn-add{
+  background-color: rgb(115, 189, 236);
+}
+.btn-save {
+  background-color: pink; /* Deep pink */
+  border: none;
+  color: white;
+}
+
+.btn-remove {
+  background-color: rgb(88, 87, 87); /* Pale violet red */
+  border: none;
+  color: white;
+}
+
+.btn-important {
+  background-color: #d6db73; /* Dodger blue */
+  border: none;
+  color: white;
+}
